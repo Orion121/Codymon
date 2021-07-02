@@ -1,0 +1,80 @@
+$primarybtn:rgb(56, 146, 142 );
+$textcolor:rgb(12, 219, 22);
+
+@import'./header';
+*{
+  margin:0;
+  padding: 0;
+}
+.container-fluid{
+  background: linear-gradient(90deg,#ECE9E6,#FFFFFF);
+}
+#main .logo{
+  margin-top: 10%;
+ 
+  span{
+    font-size: 5rem; 
+    padding: 0.16rem;
+    transition: 0.3s;
+    text-shadow: 3px 3px #003cff;  
+    &:hover{
+      color: chartreuse;
+      transform: scale(1.3);
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  #main .logo{
+    margin-top: 10%;
+    span{
+      font-size: 3rem; 
+      padding: 0.16rem;
+      transition: 0.3s;
+      text-shadow: 2px 2px #003cff;  
+      &:hover{
+        color: chartreuse;
+        transform: scale(1.3);
+      }
+    }
+  }
+  }
+.skill p{
+  padding: 4rem;
+  border-radius: 1rem;
+  margin: .8rem;
+  color: #FFFFFF;
+  transition: 0.3s;
+
+  background-image:linear-gradient(45deg,#1d1bad,#4c4ab6) ;
+  &:hover{
+    transform:scale(1.1) ;
+    box-shadow: 0 0 2rem #0008;
+  }
+}
+h2{
+  margin-bottom: 10%;
+  font-size: 40px;
+}
+#skillhead h1{
+  margin: 0% 0% 4% 0%;
+}
+.card{
+  margin: 20px;
+}
+.blog {
+  height: 100vh;
+}
+.admin{
+  margin:15%;
+  .card{
+    background-color: transparent;  
+    border: none;
+    
+  }
+}
+input{
+  box-shadow: 0 0 .3rem #0008;
+} 
+.margin{
+  margin: 5%;
+}
